@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from './img/nasa-logo.png';
+import logo from '../img/nasa-logo.png';
 
 const Logo = () => {
   return (

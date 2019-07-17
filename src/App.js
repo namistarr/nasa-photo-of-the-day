@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 import Logo from './components/Logo.js';
-import NasaPics from './components/NasaPic.js'
+import NasaPics from './components/NasaPics.js';
 
 function App() {
   return (
