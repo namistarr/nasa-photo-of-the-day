@@ -3,17 +3,22 @@ import styled from 'styled-components';
 
 const NasaPicCard = styled.div`
 display: flex;
+//flex-direction: column;
 justify-content: center;
 `
 const NasaPic = styled.img`
-max-height: 550px;
+//max-height: 550px;
 width: auto;
-margin: 20px;
+border-radius: 15px;
+margin: 50px;
 border: 1px red solid;
 `
 const PicDescription = styled.div`
-
-
+display: flex;
+flex-direction: column;
+margin-right: 50px;
+margin-left: 50px;
+margin-top: 40px;
 `
 
 function NasaPicCards({title, date, explanation, url}) {

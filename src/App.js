@@ -5,9 +5,10 @@ import NasaPics from './components/NasaPics.js';
 import styled from 'styled-components';
 
 const AppStyle = styled.div`
-height: 100vh;
 background-color: black;
 color: white;
+text-align: center;
+padding: 60px;
 `
 
 
@@ -19,7 +20,7 @@ function App() {
         app! Have fun 🚀!
       </p> */}
       <Logo />
-      <h1>Your Picture of the Day 🚀</h1>
+      <h2>Your Picture of the Day 🚀</h2>
       <NasaPics limit={1} />
 
     </AppStyle>
