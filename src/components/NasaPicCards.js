@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NasaPicCards() {
+function NasaPicCards({title, date, explanation, url}) {
     return (
         <div className='nasa-pic-card'>
             <img className='nasa-pic' src={url} />
